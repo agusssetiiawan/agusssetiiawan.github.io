@@ -14,11 +14,16 @@
 				var halo = prompt ('silahkan masukan nama');
 				alert ('selamat datang' + '  ' + halo);
 				nama = confirm ('project ini belum gue buat masih malas!!! \n tekan BATAL AJA/CANCEL');
-				alert('dibilangin belum di buat');
+				if(nama===false){
+					document.location.href = 'index.html';
+			
+				}
+				
+
 			}
 			alert('terimaksih');
 
-	</script>	
-	
+
+	</script>
 </body>
 </html>
