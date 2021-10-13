@@ -1,5 +1,12 @@
 
+.bg1{background-color:#343a40;
 
+}
+.jumbotron1{
+	background:url(../img/langit.jpg);
+	background-size :cover;
+
+}
 .jumbotron {
 	background-color: #d6e4e7;
 }
@@ -14,4 +21,5 @@ footer {
 
 	height:90px;;
 }
+
 
